@@ -6,6 +6,7 @@
     "karma-sauce-launcher": "0.3.0"
   },
   "scripts": {
-    "test": "karma start karma.conf"
+    "sauce": "karma start karma.sauce.conf",
+    "serve": "karma start karma.serve.conf"
   }
 }
